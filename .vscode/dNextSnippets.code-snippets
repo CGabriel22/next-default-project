@@ -1,0 +1,25 @@
+{
+  "React Arrow Function Export Component Typed": {
+    "scope": "typescriptreact",
+    "prefix": "_rafcet",
+    "body": [
+      "import { ${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}_ } from './${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/camelcase}/}';",
+      "",
+      "interface ${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}Props {",
+      "  // propriedades",
+      "}",
+      "",
+      "const ${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}: React.FC<${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}Props> = ({ ${1:children,} ...props }) => {",
+      "  return (",
+      "    <${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}_ {...props}>",
+      "      {/* componente */}",
+      "      ${2:{children\\}}",
+      "    </${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}_>",
+      "  );",
+      "};",
+      "",
+      "export default ${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/};",
+      ""
+    ]
+  },
+}
