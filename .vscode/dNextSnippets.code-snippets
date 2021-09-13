@@ -22,4 +22,20 @@
       ""
     ]
   },
+  "React StyledComponents With Props": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "rscwp",
+    "body": [
+      "import styled from 'styled-components';",
+      "",
+      "interface Props {",
+      "  color?: string;",
+      "}",
+      "",
+      "export const ${TM_DIRECTORY/^.+[\\\\\\/](.*)$/${1:/pascalcase}/}_ = styled.div<Props>`",
+      "  color: ${({ color }) => color};",
+      "`;",
+      ""
+    ]
+  },
 }

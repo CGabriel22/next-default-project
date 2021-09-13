@@ -12,9 +12,9 @@ export default function HeaderMeta() {
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="msapplication-TileColor" content="#ffffff" />
       <meta name="theme-color" content="#ffffff" />
-      <meta name="description" content="descrição" />
-      <meta name="keywords" content="palavras, chaves" />
-      <meta name="author" content="Adstrito" />
+      <meta name="description" content="description" />
+      <meta name="keywords" content="Keywords, divided, by, commas" />
+      <meta name="author" content="Author" />
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" />
       <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
