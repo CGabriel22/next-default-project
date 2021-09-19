@@ -28,9 +28,9 @@ export const GlobalStyles = createGlobalStyle`
   }
 `;
 export const breakpoints = {
-  sm: '356px',
-  md: '600px',
-  lg: '1024px',
+  sm: 356,
+  md: 600,
+  lg: 1024,
 };
 export const ResetStyles = createGlobalStyle`
   :root,

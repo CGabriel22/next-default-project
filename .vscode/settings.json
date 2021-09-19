@@ -1,4 +1,18 @@
 {
+  "cSpell.language": "en,pt",
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.associations": {
+    ".sequelizerc": "javascript",
+    ".stylelintrc": "json",
+    ".prettierrc": "json",
+    "*.tsx": "typescriptreact",
+    ".eslintrc.json": "jsonc"
+  },
+  "editor.rulers": [
+    80,
+    120
+  ],
   "files.exclude": {
     "**/.git": true,
     "**/.svn": true,
