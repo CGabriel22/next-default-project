@@ -23,6 +23,7 @@
     "node": true
   },
   "rules": {
+    "@next/next/no-document-import-in-page": "off",
     "comma-dangle": [
       "error",
       "always-multiline"
