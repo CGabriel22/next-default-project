@@ -2,7 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyles = createGlobalStyle`
   :root {
-    // TODO: sd - screen distance
+    // TODO: (sd - screen distance)
+    // change this according to the distance of your elements from the screen
     --sd-0: 0.5rem; // ? 8px
     --sd-1: 1rem; // ? 16px
     --sd-2: 1.12rem; // ? 18px
@@ -11,7 +12,8 @@ export const GlobalStyles = createGlobalStyle`
     --sd-5: 6rem; // ? 96px
     --sd-6: 14.25rem; // ? 228px
 
-    // TODO: dbe - distance between elements
+    // TODO: (dbe - distance between elements)
+    // change this according to the distance between your elements
     --dbe-1: 0.25rem; // ? 4px
     --dbe-2: 0.5rem; // ? 8px
     --dbe-3: 0.62rem; // ? 10px
@@ -20,6 +22,7 @@ export const GlobalStyles = createGlobalStyle`
     --dbe-6: 1.5rem; // ? 24px
 
     // TODO: font family
+    // switch to the font family of your design
     --font-family: 'Open Sans';
 
   }
@@ -28,6 +31,7 @@ export const GlobalStyles = createGlobalStyle`
   }
 `;
 export const breakpoints = {
+  // TODO: add your breakpoints here to use them in the application
   sm: 356,
   md: 600,
   lg: 1024,
